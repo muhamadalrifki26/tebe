@@ -38,13 +38,13 @@
 						<li class="sub-nav-title">Pengelolahan Akun</li>
 						<li><a href="profil" class="current"><i class="sl sl-icon-user"></i> Profile</a></li>
 						@if(Entrust::hasRole('penyedia'))
-						<li><a href="notif"><i class="fa fa-bell-o"></i> Notifikasi</a></li>
+						<li><a href="{{url('notif')}}"><i class="fa fa-bell-o"></i> Notifikasi</a></li>
 						@endif
 						@if(Entrust::hasRole('pembimbing'))
-						<li><a href="notif_kursus"><i class="fa fa-bell-o"></i> Notifikasi</a></li>
+						<li><a href="{{url('notif_kursus')}}"><i class="fa fa-bell-o"></i> Notifikasi</a></li>
 						@endif
 						@if(Entrust::hasRole('pelajar'))
-						<li><a href="notif_pelajar"><i class="fa fa-bell-o"></i> Notifikasi</a></li>
+						<li><a href="{{url('notif_pelajar')}}"><i class="fa fa-bell-o"></i> Notifikasi</a></li>
 						@endif
 					</ul>
 					@if(Entrust::hasRole('penyedia'))
