@@ -100,8 +100,8 @@
 					<td class="expire-date">{{ $value2->jumlah_peserta }}</td>
 					<td class="action">
 						@if($value2->konfirmasi == "pending")
-						<a href="/setujukursus/{{$value2->id}}"><i class="fa fa-check-circle"></i> Setuju</a>
-						<a href="/tolakkursus/{{$value2->id}}" class="delete"><i class="fa fa-remove"></i> Tolak</a>
+						<a href="{{url(/setujukursus/{{$value2->id}})}}"><i class="fa fa-check-circle"></i> Setuju</a>
+						<a href="{{url(/tolakkursus/{{$value2->id}})}}" class="delete"><i class="fa fa-remove"></i> Tolak</a>
 						@else
 							{{ $value2->konfirmasi }}
 						@endif
