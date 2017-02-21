@@ -69,21 +69,24 @@
 		<!-- Section / End -->
 
 		<!-- Row -->
+		<h3>Waktu Pemakaian</h3>
+		<div class="submit-section">
 		<div class="row with-forms">
 			<div class="col-md-6">
-			<label>Waktu Pemakaian</label>
+
+			<label>Dari Jam</label>
 			<!-- <input placeholder="Dimulai dari jam" type="text" name='min_waktupemakaian' id='min_waktupemakaian'> -->
 
 			<div class="input-append">
-    		<input placeholder="Dari jam"type="text" name="waktu_pemakaian" id="waktu_pemakaian"  required></input>
+    		<input placeholder="Dari jam" type="time" name="waktu_pemakaian" id="waktu_pemakaian"  required></input>
   </div>
 
 		</div>
 		<div class="col-md-6">
-			<label>&nbsp;</label>
-			<input placeholder="Sampai jam" type="text" name='max_waktupemakaian' id='max_waktupemakaian' required>
+			<label>Sampai Jam</label>
+			<input placeholder="Sampai jam" type="time" name='max_waktupemakaian' id='max_waktupemakaian' required>
 		</div>
-
+</div>
 	</div>
 	<!-- Section / End -->
 		<!-- Section -->

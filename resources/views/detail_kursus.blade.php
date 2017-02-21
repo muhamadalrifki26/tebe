@@ -112,7 +112,7 @@
 						<form method="post">
 							<input type="hidden" name="kursus_id" value="{{ $data->id }}">
 							<input type="hidden" name="_token" value="{{ csrf_token() }}">
-							<input type="text" placeholder="Tanggal" name="tanggal">
+							<input type="date" placeholder="Tanggal" name="tanggal">
 							<input type="text" placeholder="Jumlah Peserta" name="jumlah">
 							<button class="button fullwidth margin-top-5">Kirim Pemesanan</button>
 						</form>

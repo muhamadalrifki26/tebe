@@ -73,13 +73,13 @@
 				<!-- Name -->
 				<div class="col-md-6">
 					<h5>Dari jam</h5>
-					<input type="text" name='dari_jam' id='dari_jam' required>
+					<input type="time" name='dari_jam' id='dari_jam' required>
 				</div>
 
 				<!-- Email -->
 				<div class="col-md-6">
 					<h5>Sampai Jam</h5>
-					<input type="text" name= 'sampai_jam' id-'sampai_jam' required>
+					<input type="time" name= 'sampai_jam' id-'sampai_jam' required>
 				</div>
 			</div>
 			<!-- Row / End -->

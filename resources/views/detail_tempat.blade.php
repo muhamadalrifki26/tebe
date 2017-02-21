@@ -108,9 +108,9 @@
 						<form method="post">
 							<input type="hidden" name="tempat_id" value="{{ $data->id }}">
 							<input type="hidden" name="_token" value="{{ csrf_token() }}">
-							<input type="text" placeholder="Tanggal" name="tanggal">
-							<input type="text" placeholder="Dari Jam" name="dari">
-							<input type="text" placeholder="Sampai Jam" name="sampai">
+							<input type="date" placeholder="Tanggal" name="tanggal">
+							<input type="time" placeholder="Dari Jam" name="dari">
+							<input type="time" placeholder="Sampai Jam" name="sampai">
 							<button class="button fullwidth margin-top-5">Kirim Pemesanan</button>
 						</form>
 						@endif
@@ -118,9 +118,9 @@
 						<form method="post">
 							<input type="hidden" name="tempat_id" value="{{ $data->id }}">
 							<input type="hidden" name="_token" value="{{ csrf_token() }}">
-							<input type="text" placeholder="Tanggal" name="tanggal">
-							<input type="text" placeholder="Dari Jam" name="dari">
-							<input type="text" placeholder="Sampai Jam" name="sampai">
+							<input type="date" placeholder="Tanggal" name="tanggal">
+							<input type="time" placeholder="Dari Jam" name="dari">
+							<input type="time" placeholder="Sampai Jam" name="sampai">
 							<button class="button fullwidth margin-top-5">Kirim Pemesanan</button>
 						</form>
 						@endif
